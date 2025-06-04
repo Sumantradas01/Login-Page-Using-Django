@@ -1,0 +1,32 @@
+body{
+    background-image: url("back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+a, a:link, a:visited{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    border: 10px solid white;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: white;
+    border: 10px solid black;
+    padding: 10px;
+}
+img{
+    border: 10px solid white;
+    padding: 10px;
+}

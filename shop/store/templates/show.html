@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Databse Update</title>
+</head>
+<body>
+    <H2 style="color: blue;background-color: dimgray; font-family: Georgia, 'Times New Roman', Times, serif ;text-align: center;"> Profile </H2>
+    <table style="border: 5px,aqua solid;">
+        <tr><td>Name</td>
+        <td>Email</td>
+        <td>Password</td>
+    
+    
+</tr>
+{% for i in data %}
+<tr>
+    <td>{{i.Name}}</td>
+    <td>{{i.Email}}</td>
+    <td>{{i.Password}}</td>
+    
+    <td><a href="del/{{i.id}}">Delete data</a></td>
+     <td><a href="edit/{{ i.id }}">Edit Profile</a> </td>
+</tr>
+{% endfor %}
+
+    </table>
+</body>
+</html>
